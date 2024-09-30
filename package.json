@@ -1,0 +1,35 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "@vueuse/motion": "^2.2.5",
+    "axios": "^1.7.7",
+    "bootstrap": "^5.3.3",
+    "datatables.net": "^2.1.7",
+    "datatables.net-bs5": "^2.1.7",
+    "datatables.net-buttons": "^3.1.2",
+    "datatables.net-buttons-bs5": "^3.1.2",
+    "datatables.net-dt": "^2.1.7",
+    "datatables.net-fixedheader": "^4.0.1",
+    "datatables.net-select": "^2.1.0",
+    "datatables.net-vue3": "^3.0.2",
+    "jquery": "^3.7.1",
+    "nuxt": "^3.13.0",
+    "primevue": "^4.0.7",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@primevue/nuxt-module": "^4.0.7",
+    "daisyui": "^4.12.10"
+  }
+}
